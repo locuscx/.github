@@ -2,18 +2,38 @@
 
 *A unified search and support network*
 
+## Table of Contents
+
+- [About](#about)
+- [Plugin Development](#plugin-development)
+- [Contact](#contact)
+
 ## About
 
-Locus is an early-stage project designed to create an efficient search and support network focused on helping large teams find information or assistance quickly and securely. This is the public organization for the project.
+Locus is an early-stage project designed to create an efficient search and support network focused on helping large teams find information or assistance quickly and securely. It is secure, self-deployed, and highly efficient at reducing human-time finding specific or proprietary answers.
 
-## Public Repositories
+## Plugin Development
 
-The main company code remains private, but we maintain several public repositories including datasource implementations, client code, and other supporting tools. We keep these public because they aren't part of our core intellectual property. By sharing this code, we enable the community to:
+Locus seeks to have compatability and efficiency in as many environments as possible. To encourage this, our plugin implementations for datasources, clients, and database connections are open-source. We encourage the development of community plugins and provide an SDK for our plugins. If you are interested in contributing, feel free to open a pull request on one of our official plugin repos to propose a new plugin or immprove an existing one.
 
-- Understand how Locus works and integrates with various services
-- Build adapters and connectors to bring their own services into the Locus network
-- Contribute improvements and feedback
+### Official Plugins
 
-## Contributing
+- [datasources](https://github.com/locuscx/datasource) - Official Implementations for Datasources
+  Current Official Datasources
+  - DuckDuckGo
+  - Wikipedia
+  - Stack Exchange
 
-Interested in building an adapter for your service or contributing improvements? Check out our public repositories and feel free to submit issues and pull requests.
+### Plugin API Reference
+
+See the [Plugin Development Guide](https://github.com/locuscx/plugin-sdk) for detailed documentation on developing a plugin
+
+### Community Plugins
+
+Have you built a plugin? Submit a PR to add it to our [community plugins list](https://github.com/username/community-plugins).
+
+## Contact
+
+**Samuel Johns** - [@samcjohns](https://github.com/samcjohns) - samuelcarljohns@gmail.com
+
+**Project Link:** [locus.cx](https://locus.cx)
